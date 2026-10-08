@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "name": "Empower Counselling Consultancy Services",
+    "counsellor": "Benson Lim",
+    "englishName": "Benson Lim",
+    "serviceArea": "Kuching, Sarawak"
+  },
+  "contact": {
+    "phone": "+60 12-886 8809",
+    "whatsapp": "60128868809",
+    "hours": "9:00 AM – 6:00 PM",
+    "appointmentRequired": true,
+    "fullAddress": "2nd Floor, No. 409, Lot 14633, Jalan Stutong, Height Drive Commercial Centre, 93350 Kuching, Sarawak, Malaysia",
+    "businessDays": ""
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/CounselorBensonLim/",
+    "youtube": "https://www.youtube.com/@林明申",
+    "instagram": ""
+  },
+  "services": [
+    "Individual Counselling",
+    "Parent–Child & Family Counselling",
+    "Couple & Relationship Counselling",
+    "Education & Career Counselling",
+    "Mindfulness & Emotional Regulation",
+    "Counselling Skills Training"
+  ],
+  "contentStatus": {
+    "officialLogo": true,
+    "officialPortrait": true,
+    "fullAddress": true,
+    "businessDays": false,
+    "credentials": false,
+    "programmes": false,
+    "featuredVideos": false
+  },
+  "homeGuide": {
+    "eyebrowEn": "WHERE DO I START?",
+    "eyebrowZh": "",
+    "title": "If you are facing any of these situations,\nstart with the service that feels most relevant.",
+    "items": [
+      {
+        "id": "guide-career",
+        "icon": "⌁",
+        "question": "Unsure what to study or what career direction to take?",
+        "description": "Explore your interests, abilities, values and practical options together.",
+        "linkText": "Education & Career Counselling →",
+        "href": "services.html#career",
+        "order": 1,
+        "active": true
+      },
+      {
+        "id": "guide-family",
+        "icon": "◎",
+        "question": "Is your child becoming less willing to communicate?",
+        "description": "Understand emotional needs and communication patterns within the parent–child relationship.",
+        "linkText": "Parent–Child Counselling →",
+        "href": "services.html#family",
+        "order": 2,
+        "active": true
+      },
+      {
+        "id": "guide-couple",
+        "icon": "∞",
+        "question": "Are repeated arguments making the relationship exhausting?",
+        "description": "Create space for both partners to slow down, listen and understand each other.",
+        "linkText": "Couple Counselling →",
+        "href": "services.html#couple",
+        "order": 3,
+        "active": true
+      },
+      {
+        "id": "guide-individual",
+        "icon": "◌",
+        "question": "Feeling anxious, low or under significant stress lately?",
+        "description": "Start with the feelings and daily impact that are affecting you most right now.",
+        "linkText": "Individual Counselling →",
+        "href": "services.html#individual",
+        "order": 4,
+        "active": true
+      }
+    ]
+  }
+}

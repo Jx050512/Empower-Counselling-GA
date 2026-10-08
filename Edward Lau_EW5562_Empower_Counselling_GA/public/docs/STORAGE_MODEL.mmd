@@ -1,0 +1,12 @@
+flowchart TD
+  AP[Appointment Submission] --> F1[Netlify Function /api/appointments]
+  EQ[General Enquiry] --> F2[Netlify Function /api/enquiries]
+  F1 --> B[(Netlify Blobs: empower-requests)]
+  F2 --> B
+  AD[Admin Login] --> P[Admin Proxy Function]
+  P --> AR[Public /api/admin/requests]
+  AR --> B
+  AR --> U[Update Status / Delete]
+  U --> B
+  CM[Admin Content Management] --> C[(Netlify Blobs: empower-content)]
+  MM[Admin Media] --> M[(Netlify Blobs: empower-media)]

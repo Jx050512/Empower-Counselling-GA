@@ -1,0 +1,20 @@
+EMPOWER COUNSELLING — GA ENGLISH ADMIN DEPLOYMENT
+
+This package is for the separate English GA demonstration site.
+
+ADMIN SITE ENVIRONMENT VARIABLE
+PUBLIC_API_ORIGIN=https://YOUR-GA-ENGLISH-PUBLIC-SITE.netlify.app
+
+The following variables belong on the English Public project, not this Admin project:
+ADMIN_EMAIL
+ADMIN_PASSWORD
+SESSION_SECRET
+
+Safety behaviour:
+If PUBLIC_API_ORIGIN is missing, the Admin proxy stops with a configuration error. It does not fall back to the client's Chinese production website.
+
+Recommended deployment order:
+1. Deploy/redeploy the English Public project first.
+2. Set PUBLIC_API_ORIGIN on this English Admin project.
+3. Deploy/redeploy this Admin project.
+4. Sign in and verify content sync, Bookings & Enquiries and Media Library.

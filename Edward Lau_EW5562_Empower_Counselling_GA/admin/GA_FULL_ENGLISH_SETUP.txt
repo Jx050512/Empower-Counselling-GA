@@ -1,0 +1,18 @@
+EMPOWER COUNSELLING – GA FULL ENGLISH ADMIN
+
+This is an English GA copy of the client Chinese Admin website.
+It is intended for a separate Netlify project/account and does not modify the client site.
+
+Required environment variable on this ENGLISH ADMIN project:
+PUBLIC_API_ORIGIN=https://YOUR-GA-ENGLISH-PUBLIC-SITE.netlify.app
+
+Important:
+- Do NOT use the client Chinese Public URL for PUBLIC_API_ORIGIN.
+- If PUBLIC_API_ORIGIN is missing, the Admin proxy stops instead of falling back to the client site.
+- Website & Contact Settings includes Facebook (FB) URL, YouTube URL and Instagram URL.
+- Facebook URL can be set to: https://www.facebook.com/CounselorBensonLim/
+
+GUIDANCE CARD FACEBOOK ARTICLE URL
+- Each Homepage Guidance Card includes an optional Facebook Related Article URL.
+- If a Facebook article URL is provided, the Public card opens that article in a new tab.
+- If it is blank, the card automatically falls back to Link Target / Fallback (for example services.html#individual).

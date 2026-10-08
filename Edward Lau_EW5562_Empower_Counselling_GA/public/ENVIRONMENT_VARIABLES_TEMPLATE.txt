@@ -1,0 +1,8 @@
+GA English Public Site
+
+ADMIN_EMAIL=your-ga-admin-email@example.com
+ADMIN_PASSWORD=choose-a-strong-ga-only-password
+SESSION_SECRET=use-a-different-long-random-secret-at-least-32-characters
+
+No Supabase variables are required. Appointment and enquiry records use Netlify Blobs for THIS site only.
+Do not reuse the client's production credentials or SESSION_SECRET.

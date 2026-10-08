@@ -1,0 +1,16 @@
+EMPOWER COUNSELLING – GA FULL ENGLISH PUBLIC
+
+This is an English GA copy of the client Chinese Public website.
+It is intended for a separate Netlify project/account and does not modify the client site.
+
+Required environment variables on this ENGLISH PUBLIC project:
+ADMIN_EMAIL=your GA admin login email
+ADMIN_PASSWORD=your GA admin login password
+SESSION_SECRET=a new random secret used only for the GA English site
+
+Important:
+- Use a different SESSION_SECRET from the client Chinese site.
+- Deploy this package to the GA English Public project only.
+- The Facebook URL is included: https://www.facebook.com/CounselorBensonLim/
+- The current counselling location and Google Maps section are included in English.
+- Bookings, enquiries and CMS content are stored under this separate Public site.

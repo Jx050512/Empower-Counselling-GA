@@ -1,0 +1,10 @@
+Empower Admin Update — 3 October 2026
+
+Added to Appointment & Enquiry management:
+- Sort dropdown
+- Newest → Oldest (default)
+- Oldest → Newest
+- Sorting works together with Search, Type filter and Status filter
+- Summary now shows the active sort direction
+
+No server-side API, login, CRUD or storage functions were changed.

@@ -1,0 +1,19 @@
+EMPOWER COUNSELLING — GA ENGLISH PUBLIC DEPLOYMENT
+
+This package is for the separate English GA demonstration site.
+It does not need to share credentials, data or a Netlify project with the client's Chinese production site.
+
+PUBLIC SITE ENVIRONMENT VARIABLES
+ADMIN_EMAIL=<GA admin login email>
+ADMIN_PASSWORD=<GA admin login password>
+SESSION_SECRET=<a separate long random secret, 32+ characters>
+
+Recommended deployment order:
+1. Deploy this English Public project.
+2. Confirm /api/health reports authConfigured=true.
+3. Deploy the English Admin project.
+4. Set the Admin project's PUBLIC_API_ORIGIN to this English Public site's URL.
+5. Redeploy the Admin project.
+6. Test login, content sync, appointment/enquiry submission, status updates, sorting, deletion and media upload.
+
+Do not copy the client's Chinese production SESSION_SECRET or point the English Admin to the Chinese Public URL.

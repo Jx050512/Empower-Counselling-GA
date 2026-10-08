@@ -1,0 +1,8 @@
+GA English Admin Site
+
+REQUIRED:
+PUBLIC_API_ORIGIN=https://YOUR-GA-ENGLISH-PUBLIC-SITE.netlify.app
+
+IMPORTANT: Use only the English GA Public site URL here.
+This build intentionally has NO fallback to the client Chinese production website.
+If this variable is missing, the Admin API will stop instead of connecting elsewhere.

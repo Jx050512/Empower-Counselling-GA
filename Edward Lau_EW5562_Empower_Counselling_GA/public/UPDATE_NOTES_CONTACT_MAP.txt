@@ -1,0 +1,9 @@
+Empower Counselling Public Website – Contact Map Update
+
+Changes made:
+- Removed the public “Website Sitemap & Location” page and all visible links to it.
+- Removed sitemap.xml reference from robots.txt.
+- Moved the face-to-face counselling location section into contact.html.
+- Added embedded Google Maps preview, full address, and the supplied Google Maps navigation link.
+- Updated the contact information card so it no longer says the detailed location is only provided after confirmation.
+- Kept the existing appointment and enquiry forms unchanged.
