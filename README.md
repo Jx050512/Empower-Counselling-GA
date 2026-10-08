@@ -10,6 +10,12 @@ English-language demonstration of the Empower Counselling full-stack website for
 - Public: https://empower-counselling-limbenson-kuching.netlify.app/
 - Admin: https://empower-counselling-limbenson-admin.netlify.app/
 
+## Figma design documentation
+- [Desktop & Mobile Interactive Prototype](https://www.figma.com/design/3v3LgCkjlw7KuaDyAbyVn5/Empower-Counselling-GA---Desktop---Mobile-Interactive-Prototype?node-id=0-1&p=f&t=T26gdsWPJX6KNzDQ-0)
+- [System Sitemap](https://www.figma.com/board/CtL6Eg7Riylbli0WyYcCWw/Empower-Counselling-GA-Sitemap?node-id=0-1&p=f&t=2XXeT9xxQh6YGoxZ-0)
+- [Navigation Flow](https://www.figma.com/board/u3oyZBTkMzYALrQVj7jFdC/Empower-Counselling-GA-Navigation-Flow?node-id=0-1&p=f&t=fPWCNUGRskvCEbCr-0)
+- [Logical ERD / Data Model](https://www.figma.com/board/Xrisx4zMGDZh9wREjU4WeF/Empower-Counselling-Logical-ERD?node-id=0-1&p=f&t=LGlQ1jqLcMNVg3hU-0)
+
 ## Technology
 HTML5, CSS3, JavaScript, Netlify Functions, and Netlify Blobs.
 
